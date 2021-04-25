@@ -91,3 +91,11 @@ var turn = true; //true means X turn
 
 
   
+
+
+
+
+
+
+
+            console.log("aksjdbask");
