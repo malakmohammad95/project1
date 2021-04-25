@@ -1,0 +1,94 @@
+body{
+  background-color:cornflowerblue;
+  border: dashed;
+  color: rgb(255, 0, 0);
+border-radius: 50px;
+border-color: lawngreen;
+justify-self: unset;
+box-shadow: black;
+height: 100vh;
+margin: 10px;
+border: auto;
+font-size: 42;
+}
+
+#img{
+  border-radius: 10%;
+padding-left: 15px;
+
+}
+label{
+  color: wheat;
+  font-family: monospace;
+  font-weight: lighter ,bolder;
+  font-size: 72px;
+}
+
+
+#btn1{
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  border-radius: 50%;
+  color: blue;
+  font-weight: bolder;
+  font-size: 26px;
+  float: right;
+}
+
+
+
+
+
+#p1{
+  float:center;
+ color: blue;
+ font-size: 24px;
+font-style: oblique;
+}
+
+
+
+
+
+.wrapper{
+  width: 500px;
+  height: 500px;
+  background-color:wheat;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 7px #8d2727;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-block-start: 20px;
+  margin-left: 20px;
+
+}
+.square{
+  align-content: space-between;
+  width: 150px;
+  height: 150px;
+  background:coral;
+  margin: 5px;
+  font-size: 120px;
+  line-height: 165px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #000090;
+  cursor: pointer;
+  float: center;
+  border-radius: 75px;
+  display: flex;
+  flex: auto auto auto;
+  justify-content:space-around;
+}
+
+.div11{
+  display: flex;
+}
+
+#p2{
+  text-align: center;
+  color:#8d2727;
+  font-size: 72px;
+}
