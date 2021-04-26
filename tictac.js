@@ -1,21 +1,4 @@
-const header= document.createElement("h1");
-header.innerHTML="Tec Tac Toe";
-header.id="h1"
-body.append(header);
- //=======================
- const div1 = document.querySelector(".div11");
- const btn= document.createElement("button");
- btn.innerHTML="join to us";
- btn.id="btn1"
-div1.append(btn);
- //===========================
- const in1 = document.getElementById("input");
-btn.addEventListener("click" , function(){
-  const name = document.createElement("p");
-  name.id="p1";
-  name.innerHTML= in1.value ;
- div1.append(name)
-})
+
 //====================================
 
 var turn = true; //true means X turn
@@ -91,11 +74,3 @@ var turn = true; //true means X turn
 
 
   
-
-
-
-
-
-
-
-            console.log("aksjdbask");

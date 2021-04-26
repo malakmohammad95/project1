@@ -1,54 +1,46 @@
+h4{
+ background-color: wheat;
+ border: #000090;
+ border-style: double;
+ border-spacing:5px;
+padding: 50px;
+ font-size:100px;
+ margin: 20px;
+margin-top: 10ch;
+
+}
 body{
-  background-color:cornflowerblue;
-  border: dashed;
-  color: rgb(255, 0, 0);
-border-radius: 50px;
-border-color: lawngreen;
-justify-self: unset;
+  background-image: url(./Preview\ Image.jpg);
+  background-size: cover;
+  color:mediumorchid;
 box-shadow: black;
-height: 100vh;
-margin: 10px;
-border: auto;
-font-size: 42;
+margin:10px;
+text-align: center;
+font-size: 72px;
+width: 100%;
+height: 100%;
+padding: 40px;
+}
+a {
+  background-color: white;
+  border: 15px dotted pink;
+}
+a:visited {
+  color: green;
 }
 
-#img{
-  border-radius: 10%;
-padding-left: 15px;
-
-}
-label{
-  color: wheat;
-  font-family: monospace;
-  font-weight: lighter ,bolder;
-  font-size: 72px;
-}
-
-
-#btn1{
-  width: 100px;
-  height: 100px;
-  background-color: chartreuse;
-  border-radius: 50%;
+a:active{
   color: blue;
-  font-weight: bolder;
-  font-size: 26px;
-  float: right;
 }
 
-
-
-
-
-#p1{
-  float:center;
- color: blue;
- font-size: 24px;
+#p2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:300;
 font-style: oblique;
+color: palegreen;
+font-size:92pt;
+
 }
-
-
-
 
 
 .wrapper{
@@ -60,9 +52,8 @@ font-style: oblique;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  margin-block-start: 20px;
+  margin-block-start: 100px;
   margin-left: 20px;
-
 }
 .square{
   align-content: space-between;
@@ -80,15 +71,12 @@ font-style: oblique;
   border-radius: 75px;
   display: flex;
   flex: auto auto auto;
-  justify-content:space-around;
+
 }
 
-.div11{
+.flex-center{
+widows: inherit;
+  align-items: center;
   display: flex;
-}
-
-#p2{
-  text-align: center;
-  color:#8d2727;
-  font-size: 72px;
+  justify-content: center;
 }
